@@ -1,0 +1,41 @@
+{
+  "name": "analytics-ui",
+  "description": "Analytics UI created with Nuxt 3 + Tailwind CSS",
+  "version": "0.0.1",
+  "author": {
+    "name": "Behon Baker",
+    "email": "behon.baker@yahoo.com",
+    "url": "https://behonbaker.com"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "clean": "rm -rf .nuxt dist node_modules package-lock.json yarn.lock && yarn",
+    "format:prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.8.1",
+    "@types/chart.js": "^2.9.39",
+    "@types/node": "^20.8.9",
+    "nuxt": "^3.8.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwind-scrollbar": "^3.0.5"
+  },
+  "dependencies": {
+    "@morev/vue-transitions": "^2.3.6",
+    "@vueuse/nuxt": "^10.5.0",
+    "chart.js": "^4.4.0",
+    "firebase": "^10.6.0",
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.5.0",
+    "nuxt-headlessui": "^1.1.4",
+    "nuxt-icon": "^0.6.1",
+    "nuxt-vuefire": "^0.4.1",
+    "vue-chartjs": "^5.2.0",
+    "vuefire": "^3.1.18"
+  }
+}
