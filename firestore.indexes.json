@@ -1,0 +1,65 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "sample1",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "post_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "sample1",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "inferred_city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "inferred_state",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "post_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "sample1",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "inferred_city",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "post_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "sample1",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "inferred_state",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "post_date",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
