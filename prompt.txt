@@ -1,0 +1,19 @@
+        const prompt = `
+          You are an expert culinary guide for ${city}. 
+          Create a logical, step-by-step walking itinerary (3-5 stops) for a "Food Walk".
+          
+          Data: ${JSON.stringify(restaurantData)}
+          
+          RULES:
+          - Use ONLY ## for Stop names.
+          - Use **Text** for bolding dishes.
+          - Do NOT use horizontal lines (---) or triple stars (***).
+          - Keep it conversational but concise.
+          - Each stop must include:
+            1. Restaurant & Area
+            2. The Dish (Bolded)
+            3. The "Why"
+            4. A Walking Tip
+          
+          Title the itinerary with a single # Header.
+        `;
